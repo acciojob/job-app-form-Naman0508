@@ -12,19 +12,20 @@
 </script>
 	<form method="post">
 		<label for="name">Name*</label>
-		<input type="text" name="name" required>
+		<input type="text" name="name" id="#name" required>
 
 		<label for="email">Email*</label>
-		<input type="email" name="email" required>
+		<input type="email" name="email" id="#email" required>
 		<br>
 
 		<label for="gender">Gender</label>
-		M<input type="radio" name="gender" required>
-		F<input type="radio" name="gender" required>
+		M<input type="radio" name="gender" id="#m-gender" required>
+		F<input type="radio" name="gender" id="#f-gender" required>
 		<br>
 		
 		<label for="laptopbrands">Laptop Brands :</label>
 		<select>
+			<option value="" >Select options</option>
 			<option value="apple">Apple</option>
 			<option value="asus">Asus</option>
 			<option value="hp">HP</option>
@@ -32,20 +33,20 @@
 		<br>
 
 		<label for="age">Age*</label>
-		<input type="text" name="age" required>
+		<input type="text" name="age" id="#age" required>
 
 		<label for="dob">DOB*</label>
-		<input type="date" name="dob" required>
+		<input type="date" name="dob" id="#dob" required>
 		<br>
 
 		<label for="password">Password*</label>
-		<input type="password" name="password" required>
+		<input type="password" name="password" id="#password" required>
 
 		<input type="submit" value="Submit">
 		<br>
 
 		<label for="url">Portfolio URL</label>
-		<input type="url" name="url" id="portfolio">
+		<input type="url" name="url" id="#portfolio">
 		
 	</form>
 
